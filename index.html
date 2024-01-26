@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=DM+Sans:opsz@9..40&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <title>Bing - Alquiler de Autos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./assets/img/bing-logo.png" alt="Logo de Bing">
+                <img src="./assets/img/bing-word.png" alt="Logo de Bing en Palabra">
+            </div>
+            <li class="navbar-list">
+                <ul><a class="home-btn" href="#">Inicio</a></ul>
+                <ul><a href="#">Conocenos</a></ul>
+                <ul><a href="#">Autos</a></ul>
+                <ul><a href="#">Contacto</a></ul>
+                <ul><a href="#">Ingresar</a></ul>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Bing, emprende tu aventura con nosotros</h1>
+                <p>Alquila el auto que necesitas, encuentra el vehículo perfecto para ti, reserva y estaras listo para retirarlo en uno de nuestros locales.</p>
+                <div class="btn">
+                    <button>Alquilar</button>
+                    <button>Conocer Más</button>
+                </div>
+            </div>
+            <img src="./assets/img/bing-logo.png" alt="Logo de Bing"> 
+            <!-- Imagenes creadas con inteligencia artificial -->
+        </section>
+        <section id="about">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Somos una empresa de renta que ofrece una flota diversa de vehículos modernos para satisfacer todas tus necesidades de movilidad. Desde viajes de negocios hasta vacaciones familiares, brindamos opciones flexibles y asequibles. Comprometidos con la comodidad del cliente, la transparencia y la sostenibilidad, Bing proporciona experiencias de alquiler sin complicaciones con un toque ecoamigable.</p>
+            <div class="about-container">
+                <div class="about-card">
+                    <img class="telefono" src="./assets/img/telefono.png" alt="">
+                    <h3>Contactanos</h3>
+                    <p>Habla con nosotros para poder asesorarte en cotizaciones y dudas.</p>
+                </div>
+                <div class="about-card">
+                    <img src="./assets/img/calendario.png" alt="">
+                    <h3>Reserva</h3>
+                    <p>Luego de contactarnos reserva para retirar tu unidad.</p>
+                </div>
+                <div class="about-card">
+                    <img src="./assets/img/llaves.png" alt="">
+                    <h3>Recibe</h3>
+                    <p>Retira tu vehiculo en el local mas cercano.</p>
+                </div>
+            </div>
+        </section>
+        <section id="cars">
+            <h2>Conocé nuestras unidades disponibles.</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/img/etios.png" alt="">
+                    <h3>Etios Hatchback</h3>
+                    <p>$ 7.629 por hora  $ 30.517 por día</p>
+                    <button>Alquilar</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/hilux.webp" alt="">
+                    <h3>Hilux 4X4</h3>
+                    <p>$ 18.414 por hora  $ 73.655 por día</p>
+                    <button>Alquilar</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/corolla-cross.png" alt="">
+                    <h3>Corolla Cross</h3>
+                    <p>$ 7.629 por hora  $ 30.517 por día</p>
+                    <button>Alquilar</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/corolla.png" alt="">
+                    <h3>Corolla</h3>
+                    <p>$ 9.629 por hora  $ 35.517 por día</p>
+                    <button>Alquilar</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/spin.webp" alt="">
+                    <h3>Chevrolet Spin</h3>
+                    <p>$ 8.629 por hora  $ 32.517 por día</p>
+                    <button>Alquilar</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/onix.webp" alt="">
+                    <h3>Chevrolet Onix</h3>
+                    <p>$ 6.629 por hora  $ 29.517 por día</p>
+                    <button>Alquilar</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contactanos</h2>
+                <div class="form-container">
+                    <div class="form-card">
+                        <form>
+                            <label for="name"></label>
+                            <input type="text" placeholder="Nombre y Apellido">
+                            <label for="number"></label>
+                            <input type="number" placeholder="Numero Telefonico">
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email">
+                            <label for="car"></label>
+                            <input type="text" placeholder="Modelo de Unidad">
+                            <label for="city"></label>
+                            <input type="text" placeholder="Localidad">
+                        </form>
+                    </div>
+                    <div class="form-card">
+                        <textarea name="comments" id="comentarios" cols="40" rows="6" placeholder="Comentarios"></textarea>
+                    </div> 
+                </div>
+                <button>Enviar</button>
+            </div>
+            <div class="map-info">
+                <h2>Visita nuestro local</h2>
+                <img src="./assets/img/about.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <a href="#">Bing Rent S.A</a>
+            <a href="#">0800-2040-060</a>
+            <a href="#">CABA, Buenos Aires, Argentina</a>
+        </div>
+        <img src="./assets/img/bing-word.png" alt="">
+        <div class="footer-info">
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">www.bing-rent.com</a>
+        </div>
+    </footer>
+</body>
+</html>
