@@ -27,7 +27,7 @@
     text-decoration: none;
     list-style-type: none;
     font-family: "poppins", sans-serif;
-    /* border: 1px solid red; */   
+    /* border: 1px solid red;    */
     /* Para media queries */
     
 }
@@ -47,6 +47,10 @@ header{
     position: fixed;
 }
 
+#menu-toggle,
+.menu-label {
+    display: none;
+}
 
 .navbar,
 .navbar-list{
@@ -61,6 +65,13 @@ header{
     font-size: 15px;
     font-weight: 700;
 }
+
+.signup-btn{
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -140,6 +151,11 @@ section{
     transition-duration: 1s;
 }
 
+.btn button a{
+    text-decoration: none;
+    color: var(--text-white);
+}
+
 
 .btn button:hover{
     transition-duration: 1s;
@@ -148,6 +164,10 @@ section{
     color: var(--text-black);
 }
 
+
+.btn button a:hover{
+    color: var(--text-black);
+}
 /* About */
 
 #about{
@@ -165,6 +185,7 @@ section{
 #about h2{
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 
 #about>p{
@@ -296,7 +317,7 @@ section{
     transition-duration: 1s;  
     background-color: var(--text-white);
     width: 300px;
-    color: var(--text-black);   
+    color: var(--text-black); 
 }
 
 /* Contact */
@@ -318,6 +339,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 510px;
 }
 
 .contact-container h2{
@@ -387,7 +409,11 @@ textarea{
 
 .map-info img{
     width: 400px;
-    border-radius: 11px;
+    border-radius: 10px;
+}
+
+iframe{
+    border-radius: 10px;
 }
 
 
